@@ -19,6 +19,10 @@ This OS Is based of Linux From Scratch 11.  From there basically everything not 
 
 Gentoo and OpenBSD and other things all have the same problem.  They have a package manager, there is no such thing as LFS with a package manager.  For example, on gentoo I have to build the entire chain and unless specified use EVERY dependency, and install ALL of the docs, which I cannot delete later.  Binary based distributions unlike Gentoo have no way to do this.  Also I specialized the OS WITHOUT building specifically for my Hardware, meaning it will run great on any device, unlike if I was just to package gentoo.  A great example of this in MCOS is the fact I did not even touch Doxygen (A document compilier for basically everything).  This saves over 4 GB of space.  OpenBSD also is less compatible and doesn't even have proper support for the UHD 630 in my system (video drivers are required to run MC)/  And I can transfer it too any system and it will boot and stil run great.  ALL of the other init systems or bootloaders or network daeomons also make the system less stable and require more dependencies and space, which is unacceptable.
 
+# Contributions
+Thanks to https://github.com/portablemc/portablemc, 95% of the code for the Offline Launcher comes from this (Stripped of course).
+
+If you want to contribute to the project feel free to reach out 
 ## Demo (In a VM,real hardware coming soon!)
 https://www.youtube.com/watch?v=SxN93aZf8yc
 
