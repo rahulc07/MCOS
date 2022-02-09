@@ -23,7 +23,7 @@ Gentoo and OpenBSD and other things all have the same problem.  They have a pack
 Thanks to https://github.com/portablemc/portablemc, 95% of the code for the Offline Launcher comes from this (Stripped of course).
 
 If you want to contribute to the project feel free to reach out 
-## Demo (In a VM,real hardware coming soon!)
+## Demo (In a VM,real hardware coming soon!)  Edit:Real HW Tests have been performed ISO/IMG COMING SOON!
 https://www.youtube.com/watch?v=SxN93aZf8yc
 
 ## Download and Things to be Done

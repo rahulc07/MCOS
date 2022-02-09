@@ -22,7 +22,7 @@ void
 halt_system (GtkWidget *widget,
           gpointer data)
    {
-    system("shutdown -P -h now");
+    system("sudo shutdown -P -h now");
   }
 static void
 run_mc (GtkWidget *widget,
