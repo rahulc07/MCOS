@@ -1,0 +1,161 @@
+This is NOT A SCIRPT!
+These are some baseline instructions on how the build process would go and some things about the os
+
+The ENTIRE thing is based off of LFS 11.0
+
+Init - SysVInit
+WM - SOWM(stripped)
+Mesa - Installed With LLVM Support
+Kernel - 5.16.7
+GLibC - 2.34
+Linux API Headers - 5.13.12
+GCC - 11.2
+All Architecture Dependent Programs have been compiled back to the Core 2 Era (Conroe Late '06-'22)
+Wifi Menu - NMTUI
+Network Backend - Network Manager & DHCP 3
+
+
+Porg Database (Basically most of the packages installed in the OS)
+adwaita
+alsa-utils
+at-spi2-atk
+at-spi2-core
+atk
+autoconf213
+cairo
+cmake
+cpio
+cups
+curl
+dbus
+dbus-with-elogind
+desktop-file-utils
+dhclient
+dhcpcd
+docbook-xml
+docbook-xsl
+elogind
+elogind-polkit
+feh
+fontconfig
+freetype
+freetype2
+fribidi
+gdk-pixbuf
+gdk-pixbuf-xlib
+git
+glib
+gnutls
+gobject
+gpm
+graphene
+graphite2
+gst-plugins-bad
+gst-plugins-base
+gstreamer
+gtk3
+gtk4
+harfbuzz
+harfbuzz-no-freetype
+htop
+icu
+imlib2
+intel-vaapi-driver
+iso-codes
+itstool
+jansson
+js78
+libarchive
+libdrm
+libepoxy
+libevdev
+libffi
+libinput
+libjpeg-turbo
+libndp
+libnl
+libogg
+libpng
+libsecret
+libsndfile
+libssh2
+libtasn
+libtiff
+libusb
+libuv
+libva
+libvdpau
+libvdpau-va-gl
+libvorbis
+libxau
+libxcb
+libxdmcp
+libxkbcommon
+libxml2
+libxslt
+linux-pam
+llvm-clang
+make-ca
+mako
+markupsafe
+mesa
+mtdev
+nano
+nasm
+nettle
+networkmanager
+newt
+nghttp2
+nspr
+nss
+openssh
+openssh-pam
+opus
+p11-kit
+pango
+pcre
+pixman
+polkit
+popt
+pulseaudio
+rustc
+screen
+sgml-common
+shadow-pam
+shared-mime-info
+slang
+sqlite
+sudo
+unzip
+usbutils
+util-macros
+vala
+wayland
+wayland-protocols
+which
+wpa_supplicant
+wpa_supplicant2
+xbitmaps
+xcb-proto
+xcb-util
+xcb-util-cursor
+xcb-util-image
+xcb-util-keysyms
+xcb-util-renderutil
+xcb-util-wm
+xcursor-themes
+xf86-input-libinput
+xf86-video-intel
+xinit
+xkeyboard-config
+xmlto
+xorg-fbdev
+xorg-input-evdev
+xorg-server
+xorgproto
+xterm
+
+Kernel Config is in the OS_Setup folder
+
+The Initramfs Script was made for a squashfs with overlayfs mount, changes are stored in a tmpfs(ram) under /cow in the initramfs.  The System sees this as /
+GCC, tar, wget, nano, manpages, sed, patch, grep, make, less, m4, ssh, unzip, zip, cmake  and much much more were stripped.  Residual Config Files might still be present from these programs

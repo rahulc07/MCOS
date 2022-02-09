@@ -1,0 +1,11 @@
+#Set kill key 
+setxkbmap -option terminate:ctrl_alt_bksp
+#Start SOWM
+screen -dmS so sowm
+#Start MCStarter
+screen -dmS mc mcstarter
+#Set Background
+feh --bg-scale ~/mcosbackground.png
+sudo chmod 666 /dev/dri/card0
+sleep infinity
+
