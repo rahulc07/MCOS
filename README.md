@@ -1,4 +1,4 @@
-# MCOS
+# Minecraft OS
 
 ## Intro
 Are you tired of all the ram and CPU that windows, mac or even Linux is using?
