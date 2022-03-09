@@ -1,7 +1,7 @@
 # Minecraft OS
 
 ## Intro
-Are you tired of all the ram and CPU that windows, mac or even Linux is using?
+Are you tired of all the ram and CPU that windows, Mac OS X or even Linux is using?
 
 Well you have come to the right place, this is the OS That ONLY Runs Minecraft!
 
