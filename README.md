@@ -23,8 +23,9 @@ Gentoo and OpenBSD and other things all have the same problem.  They have a pack
 Thanks to https://github.com/portablemc/portablemc, 95% of the code for the Offline Launcher comes from this (Stripped of course).
 
 If you want to contribute to the project feel free to reach out 
-## Demo (In a VM,real hardware is working!) 
-https://youtu.be/mRYNaloFvSg
+## Demo (In a VM,real hardware is working!)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/mRYNaloFvSg)
+
 
 ## Download and Things to be Done
 Downloads will come once I have time to package the OS into an iso (Initramfs with isolinux is complicated lol), initial release will be x86_64 ONLY
