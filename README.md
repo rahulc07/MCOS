@@ -24,7 +24,7 @@ Thanks to https://github.com/portablemc/portablemc, 95% of the code for the Offl
 
 If you want to contribute to the project feel free to reach out 
 ## Demo (In a VM,real hardware is working!)
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/mRYNaloFvSg)
+[![Watch the video]()](https://youtu.be/mRYNaloFvSg)
 
 
 ## Download and Things to be Done
