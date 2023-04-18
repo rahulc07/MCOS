@@ -1,5 +1,7 @@
 # Minecraft OS
 
+## Rebuild Underway... expect in 2-3 weeks
+
 ## Intro
 Are you tired of all the ram and CPU that windows, Mac OS X or even Linux is using?
 
